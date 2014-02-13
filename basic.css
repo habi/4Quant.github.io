@@ -1,7 +1,11 @@
 body {
   padding-top: 50px;
 }
-.starter-template {
+.main-section {
+  padding: 40px 10px;
+  text-align: left;
+}
+.header-section {
   padding: 40px 15px;
   text-align: center;
 }
