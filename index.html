@@ -35,6 +35,7 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
+          <li><a href="#technology">Technology</a></li>
           <li><a href="#examples">Examples</a></li>
           <li><a href="#media">Media</a></li>
           <li><a href="#about">About</a></li>
@@ -106,6 +107,54 @@
       </div>
     </div>
   </div>
+  <div class="main-section" id="technology">
+    <h1>Our Technology</h1>
+    <p class="lead">We have developed a range of image processing tools on top of the latest Big Data framework, <a href="https://spark.apache.org/" target="_blank">Apache Spark&#0153;</a>.
+    Spark provides a scalable, fault-tolerant, distributed backend for robustly handling large (giga-, tera-, and petabyte) datasets. Additionally we have cloud computing integration built-in 
+    meaning you can have a cluster in the cloud up and running in minutes, not days.
+    </p>
+    <div class="panel-group" id="exampleview">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><a data-toggle="collapse" data-parent="#whatview" href="#technology-bigdata">Big Data Framework</a></h4>
+        </div>
+        <div id="example-bone" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="media">
+        <p class="pull-left"><img src="assets/spark-logo.png" alt="Apache Spark" height="100px" class="media-object">
+        </p>
+        <div class="media-body">
+          <h4 class="media-heading"></h4>
+          <p class="lead">Spark is currently the <a href="https://databricks.com/blog/2014/10/10/spark-petabyte-sort.html" target="_blank">world record holder</a> for the fastest, open-source sorting of a petabyte of data.
+          It is one of the most active Apache projects with over <a href="http://spark-summit.org/wp-content/uploads/2014/07/Sparks-Role-in-the-Big-Data-Ecosystem-Matei-Zaharia1.pdf">50 companies and 255 contributers</a> and has even surpassed standard data processing frameworks such as NumPy, matplotlib, and SciKit-Learn.
+          
+          </p>
+        </div>
+      </div>
+            </div>
+            <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><a data-toggle="collapse" data-parent="#whatview" href="#technology-cloud">Cluster and Cloud Integration</a></h4>
+        </div>
+        <div id="example-bone" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="media">
+        <p class="pull-left"><img src="assets/aws_logo.jpg" alt="Amazon Ec2" height="140px" class="media-object">
+        </p>
+        <div class="media-body">
+          <h4 class="media-heading"></h4>
+          <p class="lead">Our software is intrinsically distributed and compatible with many cluster and cloud-based solutions to enable on-demand processing of large datasets without large 
+          infrastructure investements. For storing the data, we have out of the box support for local, <a href="http://www.cloudera.com/content/cloudera/en/products-and-services/cdh/hdfs-and-mapreduce.html target="_blank">Hadoop HDFS</a>, 
+          and <a href="http://aws.amazon.com/s3/" target="_blank">Amazon S3&#0153;</a> allowing for scalable, fault-tolerant storage of large datasets
+          without the bottlenecks or hassle of storing everything on external hard drives. Finally our interactive web-based interfaces make running and controlling complex image processing tasks on 
+          a cloud or cluster easy with any modern web browser.
+         </p>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="main-section" id="examples">
     <h1>Example Projects</h1>
     <p class="lead">We have worked on a number of projects in different fields varying from food research to bone microstructure. Below are a few selected projects which illustrate some of the capabilities we have.</p>
@@ -118,8 +167,8 @@
           <div class="panel-body">
             <div class="media">
         <p class="pull-left"><img src="assets/BoneStudy.png" alt="4Quant" height="150px" class="media-object">
-        <p>Porous microstructure of mouse cortical bone</p>
-        </p>
+        Microstructure of cortical mouse bone</p>
+        
         <div class="media-body">
           <h4 class="media-heading"></h4>
           <p class="lead">For bone microstructure we have developed workflows for automatically aligning and measuring cortical bone samples <a href="http://dx.doi.org/10.1016/j.bone.2013.06.026" target="_blank">[1]</a>. 
@@ -135,6 +184,7 @@
   <div class="main-section" id="media">
     <h1>Media</h1>
     <p class="lead">4Quant has given presentations at a number of conferences and workshops in areas from genetics to material science, machine learning, and big data. Selected presentations are available online
+    <p class="lead"><a href="http://4quant.com/xrm-big-data/" target="_blank">Scaling Up: Image Processing and Analytics using Spark</a> at the Big Data Satellite Workshop at the X-Ray Microscopy Conference in Melbourne, Australia   
     <p class="lead"><a href="http://4quant.github.io/IWBBIO2014" target="_blank">High-throughput, Scalable, Quantitative, Cellular Phenotyping using X-Ray Tomographic Microscopy</a> at International Work-Conference on Bioinformatics and Biomedical Engineering 2014 in Grenada, Spain
     <p class="lead"><a href="http://4quant.github.io/machine-learning-meetup" target="_blank">Spark for High-throughput, Scalable, Quantitative Analysis of Genome-Scale Datasets</a> at the Zurich Machine Learning Meetup in Zurich, Switzerland
     <p class="lead"><a href="http://4quant.github.io/spark-summit-2014-presentation" target="_blank">Scaling Up Fast: Real-time Image Processing and Analytics using Spark</a> at the Spark Summit 2014 in San Francisco, CA
