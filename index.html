@@ -35,6 +35,7 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
           <li><a href="#technology">Technology</a></li>
           <li><a href="#examples">Examples</a></li>
           <li><a href="#media">Media</a></li>
@@ -107,9 +108,94 @@
       </div>
     </div>
   </div>
+  <div class="main-section" id="products">
+    <h1>Our Products</h1>
+    <p class="lead">
+
+    </p>
+    <div class="panel-group" id="exampleview">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title"><a data-toggle="collapse" data-parent="#whatview"
+                                     href="#product-cloud">Cloud Image Processing
+            Framework</a></h4>
+        </div>
+        <div id="product-cloud" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="media">
+              <p class="pull-left"><img src="assets/CloudIP.png" alt="CloudImageProcessing"
+                                        height="150px"
+                                        class="media-object">
+              </p>
+              <div class="media-body">
+                <h4 class="media-heading"></h4>
+                <p class="lead">Leveraging the large existing communities built around <a
+                        href="http://imagej.net/Welcome" target="blank">ImageJ</a> and <a
+                        href="http://fiji.sc"  target="blank">FIJI</a>, Cloud Image Processing (CIP)
+                  lets you scale up these tools from one machine to hundreds in a distributed,
+                  fault-tolerant manner. Whether with
+                  powerful workstations, high-performance clusters, or cloud-based machines,
+                  our framework can handle your problem and make analysis and configuration
+                  easy using any device with our web-based tools.</p>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title"><a data-toggle="collapse" data-parent="#whatview"
+                                         href="#product-consulting">Consulting</a></h4>
+            </div>
+            <div id="product-consulting" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <div class="media">
+                  <p class="pull-left"><img src="assets/consulting.png" alt="Consulting"
+                                            height="100px" class="media-object">
+                  </p>
+                  <div class="media-body">
+                    <h4 class="media-heading"></h4>
+                    <p class="lead">With over 6 years experience in the large-scale image
+                      processing area we have experience with a large number of problems and
+                      techniques. Our experience ranges from biology (bone
+                      microstructure,
+                      cell network analysis, vascular tissue connectivity) to material science
+                      (rheology of flowing foams,
+                      nanostructure distributions), from earth science (porosity analysis in
+                      volcanic rock, particle distribution in layered clays) and food engineering
+                      (air distribution in porous chocolate, fat structure in ice cream).
+                      Specifically we can help at any step of the analysis from experimental
+                      design to making sense of the results. Just <a
+                              href="mailto:contact@4Quant.com">contact us at contact@4quant.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title"><a data-toggle="collapse" data-parent="#whatview"
+                                         href="#product-education">Training</a></h4>
+            </div>
+            <div id="product-training" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <div class="media">
+                  <p class="pull-left"><img src="assets/aws_logo.jpg" alt="Amazon Ec2" height="140px" class="media-object">
+                  </p>
+                  <div class="media-body">
+                    <h4 class="media-heading"></h4>
+                    <p class="lead">
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
   <div class="main-section" id="technology">
     <h1>Our Technology</h1>
-    <p class="lead">We have developed a range of image processing tools on top of the latest Big Data framework, <a href="https://spark.apache.org/" target="_blank">Apache Spark&#0153;</a>.
+    <p class="lead">We have developed a range of image processing tools, called Spark Imaging
+      Layer, on top of the latest Big Data framework, <a href="https://spark.apache.org/"
+                                                         target="_blank">Apache Spark&#0153;</a>.
     Spark provides a scalable, fault-tolerant, distributed backend for robustly handling large (giga-, tera-, and petabyte) datasets. Additionally we have cloud computing integration built-in 
     meaning you can have a cluster in the cloud up and running in minutes, not days.
     </p>
@@ -118,7 +204,7 @@
         <div class="panel-heading">
           <h4 class="panel-title"><a data-toggle="collapse" data-parent="#whatview" href="#technology-bigdata">Big Data Framework</a></h4>
         </div>
-        <div id="example-bone" class="panel-collapse collapse in">
+        <div id="technology-spark" class="panel-collapse collapse in">
           <div class="panel-body">
             <div class="media">
         <p class="pull-left"><img src="assets/spark-logo.png" alt="Apache Spark" height="100px" class="media-object">
@@ -136,7 +222,7 @@
         <div class="panel-heading">
           <h4 class="panel-title"><a data-toggle="collapse" data-parent="#whatview" href="#technology-cloud">Cluster and Cloud Integration</a></h4>
         </div>
-        <div id="example-bone" class="panel-collapse collapse in">
+        <div id="technology-aws" class="panel-collapse collapse in">
           <div class="panel-body">
             <div class="media">
         <p class="pull-left"><img src="assets/aws_logo.jpg" alt="Amazon Ec2" height="140px" class="media-object">
@@ -155,6 +241,8 @@
       </div>
     </div>
   </div>
+
+
   <div class="main-section" id="examples">
     <h1>Example Projects</h1>
     <p class="lead">We have worked on a number of projects in different fields varying from food research to bone microstructure. Below are a few selected projects which illustrate some of the capabilities we have.</p>
@@ -196,7 +284,9 @@
   </div>
   <div class="main-section" id="contact">
     <h1>Contact Information</h1>
-    <p class="lead">We are located inside the Paul Scherrer Institut in Villigen, Switzerland and the <a href="https://www.ethz.ch/en/industry-and-society/innovation-and-setting-up-companies/ielab.html" target="_blank">ieLab</a> at ETH Hönggerberg. We can be reached by <a href="mailto:contact@4Quant.com">email at contact@4quant.com</a></p>
+    <p class="lead">We are located inside the Paul Scherrer Institut in Villigen, Switzerland and the
+      <a href="https://www.ethz.ch/en/industry-and-society/innovation-and-setting-up-companies/ielab.html" target="_blank">ieLab</a>
+      at ETH Hönggerberg. We can be reached by <a href="mailto:contact@4Quant.com">email at contact@4quant.com</a></p>
   </div><!-- /.container -->
   <!-- Bootstrap core JavaScript
     ================================================== -->
